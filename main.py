@@ -6,7 +6,8 @@ from sklearn import svm
 from sklearn import metrics
 from sklearn.metrics import accuracy_score, classification_report
 
-iris = pd.read_csv("/kaggle/input/dataset-iris/iris.csv")
+iris = pd.read_csv("C:\\Users\\This\\Desktop\\New folder\\MLOPS-Task4\\Dataset_Iris\\iris.csv")
+
 
 
 train, test = train_test_split(iris, test_size = 0.2)           # in this our main data is split into train and test
