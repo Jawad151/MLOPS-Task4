@@ -6,7 +6,7 @@ from sklearn import svm
 from sklearn import metrics
 from sklearn.metrics import accuracy_score, classification_report
 
-iris = pd.read_csv("C:\\Users\\This\\Desktop\\New folder\\MLOPS-Task4\\Dataset_Iris\\iris.csv")
+iris = pd.read_csv("Dataset_Iris/iris.csv")
 
 
 
